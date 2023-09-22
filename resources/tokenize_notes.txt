@@ -1,0 +1,24 @@
+The preprocessing step in Natural Language Processing (NLP) has the following steps:
+
+1) Tokenization
+2) Stemming
+3) Lemmatization
+
+Using the above 3 preprocessing techniques we can say that we are normalizing the text.
+Typically the first step is tokenization, and there are different types of tokenization techniques. It's only after the
+tokenization depending on the NLP task Stemming and Lemmatization is used. Some of the different types of tokenization are as follows:
+
+1) Word Tokenization
+2) Sentence Tokenization: Typically it is used for text summarization.
+3) Subword Tokenization: Breaking words into small linguistic units.
+4) Character Tokenization:
+5) Byte-Pair Encoding
+6) Whitespace Tokenization:
+7) BERT Tokenization:
+8) SentencePiece Tokenization:
+9) WorkPiece Tokenization:
+
+Some of the important tokenizations are:
+WordPiece, SentencePiece, Byte-Pair Encoding.
+
+
