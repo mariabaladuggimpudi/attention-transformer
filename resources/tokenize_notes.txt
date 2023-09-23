@@ -1,24 +1,23 @@
-The preprocessing step in Natural Language Processing (NLP) has the following steps:
+In Natural Language Processing (NLP), the preprocessing steps involve:
 
-1) Tokenization
-2) Stemming
-3) Lemmatization
+Tokenization
+Stemming
+Lemmatization
+By applying these techniques, we aim to normalize the text. Usually, tokenization is the first step, and it comes in various forms depending on the NLP task. Stemming and lemmatization are employed after tokenization. Different types of tokenization techniques include:
 
-Using the above 3 preprocessing techniques we can say that we are normalizing the text.
-Typically the first step is tokenization, and there are different types of tokenization techniques. It's only after the
-tokenization depending on the NLP task Stemming and Lemmatization is used. Some of the different types of tokenization are as follows:
+Word Tokenization
+Sentence Tokenization: Primarily used in tasks like text summarization.
+Subword Tokenization: Divides words into smaller linguistic units.
+Character Tokenization
+Byte-Pair Encoding
+Whitespace Tokenization
+BERT Tokenization
+SentencePiece Tokenization
+WordPiece Tokenization
+Noteworthy tokenizers include WordPiece, SentencePiece, and Byte-Pair Encoding. You can find these tokenizers in the transformers library.
 
-1) Word Tokenization
-2) Sentence Tokenization: Typically it is used for text summarization.
-3) Subword Tokenization: Breaking words into small linguistic units.
-4) Character Tokenization:
-5) Byte-Pair Encoding
-6) Whitespace Tokenization:
-7) BERT Tokenization:
-8) SentencePiece Tokenization:
-9) WorkPiece Tokenization:
+Subword Tokenization is crucial for capturing context and constraining vocabulary. It stands apart from white space or word tokenization.
 
-Some of the important tokenizations are:
-WordPiece, SentencePiece, Byte-Pair Encoding.
+Byte-Pair Encoding (BPE) starts with a vocabulary comprising all characters. It iteratively pairs characters and updates the vocabulary based on their occurrence in the corpus. This process continues for a specified number of iterations or until a stopping criterion is met.
 
-
+WordPiece is akin to BPE but with the distinction that it can merge entire tokens if they appear in the corpus.
