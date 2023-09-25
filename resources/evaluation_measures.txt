@@ -1,0 +1,4 @@
+The evaluation metrics for NLP tasks depends on the task at hand. For evaluating Neural Machine Translation model
+one uses:
+
+1) BLEU score
